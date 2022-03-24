@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Emiko Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="About Reyzu Robot", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -463,7 +463,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="sena-ex", url="https://github.com/komunitasvirtual"),
                     InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
                  ],
                  [
