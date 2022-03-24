@@ -6,7 +6,7 @@ from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 
-from EmikoRobot import telethn as client
+from ReyzuRobot import telethn as client
 
 spam_chats = []
 
@@ -113,7 +113,7 @@ __mod_name__ = "Tag all"
 __help__ = """
 ──「 Mention all func 」──
 
-Emiko Can Be a Mention Bot for your group.
+Reyzu Can Be a Mention Bot for your group.
 
 Only admins can tag all.  here is a list of commands
 
