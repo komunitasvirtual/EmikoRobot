@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/5a180a318e09d49295c8e.jpg">
+  <img src="https://telegra.ph/file/3d218bb373433a589690a.jpg">
 </p>
 
-<h4><p align="center"> EMIKO ROBOT </p></h4>
+<h4><p align="center"> REYZU ROBOT </p></h4>
 
 <p align="center">Emiko Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
