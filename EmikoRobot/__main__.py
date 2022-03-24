@@ -483,7 +483,7 @@ def reyzu_about_callback(update, context):
                     InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    InlineKeyboardButton(text="Go Back", callback_data="reyzu_"),
                  ]
                 ]
             ),
@@ -509,7 +509,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_")
+                    InlineKeyboardButton(text="Go Back", callback_data="reyzu_")
                  ]
                 ]
             ),
@@ -824,7 +824,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-        emiko_about_callback, pattern=r"emiko_", run_async=True
+        Reyzu_about_callback, pattern=r"reyzu_", run_async=True
     )
 
     source_callback_handler = CallbackQueryHandler(
