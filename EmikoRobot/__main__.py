@@ -384,7 +384,7 @@ def reyzu_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="reyzu_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/komunitasvirtual/EmikoRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="reyzu_back"),
@@ -463,7 +463,7 @@ def reyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/komunitasvirtual"),
+                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
                     InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
                  ],
                  [
